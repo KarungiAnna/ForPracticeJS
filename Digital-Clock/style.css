@@ -1,0 +1,32 @@
+/*reset default styles*/
+*{
+    margin : o;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+/*body styles*/
+body{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    height : 100vh;
+    background-image : url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80');
+    background-size : cover;
+    background-position: center;
+    font-family: 'Courier New', monospace;
+}
+/*container*/
+.Clock-container{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding : 40px 80px;
+    border-radius : 20px;
+    box-shadow : 0 0 20px rgba(0, 0, 0, 0.3);
+}
+/*time display*/
+#Clock{
+    color: #00ffcc;
+     font-size: 4rem;
+     text-align: center;
+     letter-spacing: 3px;
+}
