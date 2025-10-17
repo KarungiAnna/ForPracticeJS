@@ -34,13 +34,38 @@ html{
     height: 8rem;
     background-color: #8d8d8d;
     margin-bottom: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    pointer-events: none;
+    text-align: right;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: #eee;
 }
 .btn, .equal{
     width: 7rem;
     height: 7rem;
     margin: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border: none;
     background:linear-gradient(180deg, #2f2f2f, #3f3f3f);
+    box-shadow: -0.5rem -0.5rem 1.5rem rgba(0, 0, 0, 0.5);
     border-radius: 1rem;
     cursor: pointer;
     position: relative;   
+}
+
+.clear {
+  width: 25rem;
+  background: #d62929;
+}
+
+.equal {
+  background: #37925a;
+}
+
+.btn:active,
+.equal:active {
+  filter: brightness(1.5);
 }
